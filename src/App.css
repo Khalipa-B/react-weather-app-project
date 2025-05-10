@@ -7,7 +7,7 @@ body {
 }
 
 .App {
-  max-width: 600px;
+  max-width: 750px;
   margin: 40px auto;
   background: #fff;
   padding: 30px;
@@ -31,4 +31,3 @@ body {
 a {
   color: #40cbd8;
 }
-

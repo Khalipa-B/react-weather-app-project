@@ -3,12 +3,6 @@
   margin-top: 20px;
 }
 
-.forecast-day {
-  padding: 10px;
-  border-radius: 8px;
-  margin: 5px;
-}
-
 .WeatherForecast .row {
   display: flex;
   justify-content: space-between;
@@ -17,14 +11,20 @@
 }
 
 .WeatherForecast .col {
-  flex: 0 0 auto;
+  flex: -1 0 auto;
   text-align: center;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .WeatherForecast-day {
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  padding: 15px;
+  margin: 10px;
+  margin-bottom: -17px;
+  flex: 1 0 150px;
+  text-align: center;
+  transition: transform 0.2s ease;
 }
 
 .WeatherForecast-temp {
@@ -37,5 +37,11 @@
 }
 
 .WeatherForecast-temp .min {
-  color: #ff9b83;
+  color: #ff9b83 !important;
+}
+
+.forecast-day {
+  padding: 5px;
+  border-radius: 8px;
+  margin: 5px;
 }

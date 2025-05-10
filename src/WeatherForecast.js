@@ -21,8 +21,7 @@ export default function WeatherForecast(props) {
   }
 
   return (
-    <div className="WeatherForecast mt-3">
-      <h3>5-Day Forecast</h3>
+    <div className="WeatherForecast mt-0">
       <div className="row">
         {forecast.map((day, index) => (
           <div className="col" key={index}>
@@ -34,7 +33,7 @@ export default function WeatherForecast(props) {
             <img
               src={`https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
               alt={day.weather[0].description}
-              width="42"
+              width="80"
             />
             <div className="WeatherForecast-temp">
               <span className="max">{Math.round(day.main.temp_max)}° | </span>
