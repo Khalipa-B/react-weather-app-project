@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-
 import "./App.css";
 
 export default function App() {
@@ -10,7 +9,15 @@ export default function App() {
         <Weather defaultCity="Cape Town" />
         <footer>
           {" "}
-          This project is created by Khalipa Baba and is{" "}
+          This project is coded by Khalipa Baba and is{" "}
+          <a
+            href="https://github.com/Khalipa-B/react-weather-app-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
           <a
             href="https://khali-react-weather-app-project.netlify.app/"
             target="_blank"
