@@ -37,7 +37,7 @@ export default function WeatherForecast(props) {
               width="42"
             />
             <div className="WeatherForecast-temp">
-              <span className="max">{Math.round(day.main.temp_max)}°</span>
+              <span className="max">{Math.round(day.main.temp_max)}° | </span>
               <span className="min text-muted ms-1">
                 {Math.round(day.main.temp_min)}°
               </span>

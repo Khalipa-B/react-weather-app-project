@@ -1,0 +1,95 @@
+.WeatherInfo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-details li {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* Style the search form */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Input styling */
+.search-input {
+  padding: 10px 15px;
+  border: 1px solid #gray;
+  border-radius: 25px;
+  font-size: 16px;
+  width: 70%;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.3);
+}
+
+/* Button styling */
+.search-button {
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #005dc1;
+}
+
+/* Forecast layout */
+.WeatherForecast-days {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Individual forecast card */
+.WeatherForecast-day {
+  background: #f5f8ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  flex: 1 0 150px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.WeatherForecast-day:hover {
+  transform: translateY(-5px);
+}
+
+/* Day label and temp styling inside the card */
+.WeatherForecast-day h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.WeatherForecast-day .temp {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Weather icon */
+.WeatherForecast-day img {
+  width: 60px;
+  height: 60px;
+}
